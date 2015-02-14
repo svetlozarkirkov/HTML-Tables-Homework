@@ -3,8 +3,68 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Website Header</title>
+    <link rel="stylesheet" type="text/css" href="websiteheader.css" media="screen" />
 </head>
-<body>
-
+<body bgcolor="black">
+<header>
+    <table>
+        <colgroup>
+            <col class="first" />
+            <col />
+        </colgroup>
+        <tr>
+            <td rowspan="2" class="logo">
+                <a href="http://softuni.bg" target="_blank">
+                    <img src="https://softuni.bg/Content/design/logo.png" alt="SoftUni logo" />
+                </a>
+            </td>
+            <td colspan="3" class="notification">
+                <a id="notifications" href="#">
+                    <span class="unread-notifications-count">0</span>
+                    <span class="notifications"></span>
+                </a>
+            </td>
+            <td colspan="3" class="login-search">
+                <table>
+                    <tr>
+                        <td class="navigation">
+                            <a href="#">User</a>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="text" maxlength="100" placeholder="Search.." class="search-input">
+                                <button type="submit" class="search-button"></button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="navigation">
+                <a href="https://softuni.bg/news">News</a>
+            </td>
+            <td class="navigation">
+                <a href="https://softuni.bg/about">About the university</a>
+            </td>
+            <td class="navigation">
+                <a href="https://softuni.bg/trainings/specialized">
+                    Training courses
+                </a>
+            </td>
+            <td class="navigation">
+                <a href="https://softuni.bg/companies">
+                    For companies
+                </a>
+            </td>
+            <td class="navigation">
+                <a href="https://softuni.bg/forum">Forum</a>
+            </td>
+            <td class="navigation">
+                <a href="https://softuni.bg/contacts">Contacts</a>
+            </td>
+        </tr>
+    </table>
+</header>
 </body>
 </html>
